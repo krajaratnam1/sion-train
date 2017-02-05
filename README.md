@@ -6,7 +6,7 @@ A very basic League of Legends mod written by:
 Krishan Rajaratnam (NA: YoullTankMeLater, LAN: smurf platano)
 Kunal Shah (NA: Down Xindrome)
 
-This mod adds a train horn sound effect to Sion's ult. 
+This mod adds a train horn sound effect to Sion's ult, working as of Patch 7.2. 
 
 --How To Use--
 If on a Mac, just run the 'train' executable (either by just opening ‘train’ in
