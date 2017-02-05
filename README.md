@@ -1,6 +1,6 @@
 README
 
-Sion Train Horn
+Sion Train Horn,
 A very basic League of Legends mod written by:
 
 Krishan Rajaratnam (NA: YoullTankMeLater, LAN: smurf platano)
@@ -9,7 +9,7 @@ Kunal Shah (NA: Down Xindrome)
 This mod adds a train horn sound effect to Sion's ult. 
 
 --How To Use--
-If on a Mac, just run the executable (either by just opening ‘train’ in
+If on a Mac, just run the 'train' executable (either by just opening ‘train’ in
 Finder or using Terminal). You need to be using the NA server 
 (needs to be already patched),and you need to have the League of Legends app be in 
 your /Applications directory (it probably is). Make sure League is not running.
@@ -20,9 +20,18 @@ be in this directory to work.
 
 If on a Windows, go to the Resources folder and replace the
 Sion_Base_VO_audio.wpk in the League of Legends English program files with
-the one in the Resources folder (in this directory). Alternatively, if you
-have cygwin (or another UNIX environment) installed, and are a bit savvy, 
-you can compile main.c into an executable and run it through cygwin.
+the one in the Resources folder (under this directory). Unfortunately, recompiling
+main.c and running it wont work.
+
+--Uninstalling (reverting to default)--
+On Macs, simply run the 'revert' executable (either by opening 'revert' in Finder or in Terminal').
+revert.c is provided as the source code and can be recompiled.
+
+For windows users, go into the Resources folder, and then go into the original folder. 
+There will be a Sion_Base_VO_audio.wpk which contains Sion's default voice-pack.
+Replace the Sion_Base_VO_audio.wpk in the League of Legends English program files with this.
+
+
 
 NOTE: League of Legends is the property of Riot Games, All audio containing
 sounds provided by Riot Games are the Property of Riot Games. We do not

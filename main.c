@@ -17,6 +17,7 @@ int main(int argc, char* argv[]) {
         sprintf(buf,"cp '%sResources/Sion_Base_VO_audio.wpk' '/Applications/League of Legends.app/contents/LoL/RADS/projects/lol_game_client_en_us/managedfiles/0.0.0.148/DATA/Sounds/Wwise/VO/en_US/characters/Sion/Skins/Base/Sion_Base_VO_audio.wpk'",str);
         system(buf);
         printf("If cp reported no errors, you can now access your client and use the mod. Enjoy!\n\n\n");
+        free(str);
     }
 	return 0;
 }
